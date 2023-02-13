@@ -12,7 +12,7 @@ import { MenuComponent } from './menu/menu.component';
   ],
   imports: [
     CommonModule,
-    PrimeNgModule
+    PrimeNgModule,
   ],
   exports: [
     MenuComponent,
