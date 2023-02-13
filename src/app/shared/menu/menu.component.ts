@@ -22,27 +22,23 @@ export class MenuComponent implements OnInit {
           {
             label: 'Textos y Fechas',
             icon: 'pi pi-align-left',
-            //routerLink: '/',
-            url: '/'
+            routerLink: '/',
           },
           {
             label: 'Números',
             icon: 'pi pi-dollar',
-            //routerLink: 'numeros',
-            url: '/numeros'
+            routerLink: 'numeros',
           },
           {
             label: 'No comunes',
             icon: 'pi pi-globe',
-            //routerLink: 'no-comunes',
-            url: '/no-comunes'
+            routerLink: 'no-comunes',
           }]
       },
       {
         label: 'Pipes personalizados',
         icon: 'pi pi-cog',
-        //routerLink: 'ordenar',
-        url: '/ordenar'
+        routerLink: 'ordenar',
       }
     ];
   }
